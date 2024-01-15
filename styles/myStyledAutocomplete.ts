@@ -1,5 +1,5 @@
 import { DataObject } from "@/types/select";
-import { Autocomplete, TextField, styled } from "@mui/material";
+import { Autocomplete, styled } from "@mui/material";
 
 export const MyStyledAutocomplete = styled(Autocomplete<DataObject>)({
   width: "400px",

@@ -3,12 +3,12 @@ import { useContext, useEffect, useState } from "react";
 import { Store } from "@/context/apiContext";
 
 import { SelectProps, DataObject } from "@/types/select";
-
-import { TextField } from "@mui/material";
-import { MyStyledAutocomplete } from "@/styles/myStyledAutocomplete";
 import { Model } from "@/types/models";
 import { Brand } from "@/types/brands";
 import { Year } from "@/types/year";
+
+import { TextField } from "@mui/material";
+import { MyStyledAutocomplete } from "@/styles/myStyledAutocomplete";
 
 const Select = ({ id, label, data, disabled }: SelectProps) => {
   const contextData = useContext(Store);
@@ -73,13 +73,6 @@ const Select = ({ id, label, data, disabled }: SelectProps) => {
       setSelectedYear(newValue);
     }
   };
-
-  /* useEffect(() => {
-    if (selectedBrand === null) {
-      setSelectedModel({ codigo: "", nome: "" });
-      setSelectedYear({ codigo: "", nome: "" });
-    }
-  }, [selectedBrand]); */
 
   return (
     <MyStyledAutocomplete
