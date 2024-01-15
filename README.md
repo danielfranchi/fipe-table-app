@@ -14,7 +14,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 ### 🎲 Deploy Projeto
 
 ```bash
-$ <a href=“https://fipe-table-dlbwdjlk7-daniel2mf-yahoocombr.vercel.app/“>https://fipe-table-dlbwdjlk7-daniel2mf-yahoocombr.vercel.app/</a>
+<a href=“https://fipe-table-dlbwdjlk7-daniel2mf-yahoocombr.vercel.app/“>https://fipe-table-dlbwdjlk7-daniel2mf-yahoocombr.vercel.app/</a>
 ```
 
 ### :computer: Executando o Front-End (React)
