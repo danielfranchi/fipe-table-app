@@ -15,7 +15,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 [https://fipe-table-dlbwdjlk7-daniel2mf-yahoocombr.vercel.app/](https://fipe-table-dlbwdjlk7-daniel2mf-yahoocombr.vercel.app/)
 
 
-### :computer: Executando o Front-End (React)
+### :computer: Executando o Front-End (Next.Js 13)
 
 ```bash
 # Clone o repositório
